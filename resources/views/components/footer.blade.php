@@ -2,12 +2,15 @@
 {{-- Footer blade components --}}
 
 <footer class="footer">
-    <div class="footer__container">
-        <div class="footer__logo">
-            <img src="{{ asset('images/logo.png') }}" alt="Logo">
+    <div class="footer-container">
+        
+        <div class="footer-logo-div">
+            <img src="{{ asset('images/logos/white-logo.svg') }}" alt="Logo" class="footer-logo">
         </div>
         
         <div class="description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.</p>
+            <p>Quick Sketches. Instant Code.</p>
+        </div>
+        
     </div>
 </footer>

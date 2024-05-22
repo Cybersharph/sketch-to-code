@@ -17,3 +17,7 @@ Route::get('/contact', function () {
 Route::get('/how', function () {
     return view('pages/how');
 })->name('how');
+
+Route::get('/publications', function () {
+    return view('pages/publications');
+})->name('publications');
