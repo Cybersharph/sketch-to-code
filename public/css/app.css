@@ -179,3 +179,91 @@ body {
     cursor: pointer;
     border-radius: 3px;
 }
+
+.blog-intro {
+    display: flex;
+}
+
+.blog-cover {
+    width: 30%;
+}
+
+.blog-cover img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-excerpt {
+    width: 70%;
+    padding: 0 20px;
+}
+
+.guidelines-container {
+    display: flex;
+}
+
+.guidelines-container div {
+    width: 33.33%;
+    padding: 0px 20px 0px 0px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.call-to-action .btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+
+.call-to-action h2, .btn {
+    margin: 5px 20px;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-info {
+    width: 35%;
+}
+
+.contact-form {
+    width: 65%;
+    
+}
+
+.contact-form form {
+    padding: 5px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+.contact-us-heading {
+    margin-bottom: 0rem;
+    display: none;
+
+}

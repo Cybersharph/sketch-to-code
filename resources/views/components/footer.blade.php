@@ -9,7 +9,7 @@
         </div>
         
         <div class="description">
-            <p>Quick Sketches. Instant Code.</p>
+            <p>Quick Sketches. Instant Code. <br> <small>Powered by GPT-v4</small> </p>
         </div>
         
     </div>
