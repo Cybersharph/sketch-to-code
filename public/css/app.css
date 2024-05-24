@@ -265,5 +265,18 @@ body {
 .contact-us-heading {
     margin-bottom: 0rem;
     display: none;
+}
 
+.about-team {
+    display: flex;
+}
+
+.team-member {
+    width: 33.33%;
+    padding: 0px 20px;
+}
+
+.team-member img {
+    width: 80%;
+    height: auto;
 }
